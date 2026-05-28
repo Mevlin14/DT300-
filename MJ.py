@@ -128,6 +128,7 @@ class InventoryApp:
             messagebox.showerror(
                 "Error",
                 "Album is out of stock."
+                
             )
 
         self.update_inventory_display()
